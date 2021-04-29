@@ -1,0 +1,342 @@
+[
+    {
+        "country": "Ecuador",
+        "media_news_data": [
+            {
+                "media": "Ecuador Newswire",
+                "url": "http://world.einnews.com/country/ecuador",
+                "twitter_account": "https://twitter.com/EINPresswire"
+            },
+            {
+                "media": "Al Dia",
+                "url": "http://www.aldia.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "CRE",
+                "url": "http://www.cre.com.ec/",
+                "twitter_account": "https://twitter.com/Cresatelitalecu"
+            },
+            {
+                "media": "Capital TV",
+                "url": "http://www.capitaltelevision.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "Centinela",
+                "url": "http://diariocentinela.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "Centro",
+                "url": "http://www.eldiario.ec/centro/",
+                "twitter_account": null
+            },
+            {
+                "media": "Correo",
+                "url": "http://www.diariocorreo.com.ec/",
+                "twitter_account": "https://twitter.com/diariocorreoec"
+            },
+            {
+                "media": "Cronica",
+                "url": "http://www.cronica.com.ec/",
+                "twitter_account": "https://twitter.com/cronicaloja"
+            },
+            {
+                "media": "Cuenca News Digest",
+                "url": "http://cuencanewsdigest.com/index90.htm",
+                "twitter_account": null
+            },
+            {
+                "media": "Economist",
+                "url": "http://www.economist.com/topics/ecuador",
+                "twitter_account": null
+            },
+            {
+                "media": "Ecuador Inmediato",
+                "url": "http://www.ecuadorinmediato.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "Ecuador Transparente",
+                "url": "http://www.ecuadortransparente.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "Ecuador en Vivo",
+                "url": "http://www.ecuadorenvivo.com/",
+                "twitter_account": "http://twitter.com/ecuadorenvivo"
+            },
+            {
+                "media": "El Comercio",
+                "url": "http://www.elcomercio.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "El Diario",
+                "url": "http://www.eldiario.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "El Espectador",
+                "url": "http://www.espectadorazogues.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "El Financiero",
+                "url": "http://www.elfinanciero.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "El Heraldo",
+                "url": "http://www.elheraldo.com.ec/",
+                "twitter_account": "https://twitter.com/ElHeraldoAmbato"
+            },
+            {
+                "media": "El Mercurio",
+                "url": "http://www.elmercurio.com.ec/",
+                "twitter_account": "https://twitter.com/mercurioec"
+            },
+            {
+                "media": "El Mercurio",
+                "url": "http://www.elmercurio-manta.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "El Norte",
+                "url": "http://www.elnorte.ec/",
+                "twitter_account": "https://twitter.com/elnorteadiario"
+            },
+            {
+                "media": "El Telegrafo",
+                "url": "http://www.telegrafo.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "El Tiempo",
+                "url": "http://www.eltiempo.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "El Universo",
+                "url": "http://www.eluniverso.com/",
+                "twitter_account": "https://twitter.com/eluniversocom"
+            },
+            {
+                "media": "Estadio",
+                "url": "http://www.revistaestadio.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "Expreso",
+                "url": "http://expreso.ec/expreso/default.aspx",
+                "twitter_account": null
+            },
+            {
+                "media": "Extra",
+                "url": "http://www.diario-extra.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "FB Radio",
+                "url": "http://www.fbradiobahia.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "Gama TV",
+                "url": "http://www.gamatv.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "Hoy",
+                "url": "http://www.hoy.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "Index Mundi",
+                "url": "http://www.indexmundi.com/news.aspx?country=Ecuador",
+                "twitter_account": null
+            },
+            {
+                "media": "La Gaceta",
+                "url": "http://www.lagaceta.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "La Hora",
+                "url": "http://www.lahora.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "La Marea",
+                "url": "http://www.eldiario.ec/lamarea/",
+                "twitter_account": null
+            },
+            {
+                "media": "La Prensa",
+                "url": "http://www.laprensa.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "La Tarde",
+                "url": "http://www.latarde.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "La Verdad",
+                "url": "http://www.prensalaverdad.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "La Verdad",
+                "url": "http://www.tvlaverdad.com/web/",
+                "twitter_account": null
+            },
+            {
+                "media": "La Voz del Tomebamba",
+                "url": "http://www.lavozdeltomebamba.com/",
+                "twitter_account": "https://twitter.com/tomebamba"
+            },
+            {
+                "media": "Los Andes",
+                "url": "http://www.diariolosandes.com.ec/",
+                "twitter_account": "https://twitter.com/andesdiario"
+            },
+            {
+                "media": "MSN Latino",
+                "url": "http://noticias.latino.msn.com/latinoamerica/ecuador/",
+                "twitter_account": null
+            },
+            {
+                "media": "Machala Global",
+                "url": "http://www.machalaglobal.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "Metro",
+                "url": "http://www.readmetro.com/es/ecuador/quito/",
+                "twitter_account": null
+            },
+            {
+                "media": "Metro",
+                "url": "http://www.readmetro.com/es/ecuador/cuenca/",
+                "twitter_account": null
+            },
+            {
+                "media": "Metro",
+                "url": "http://www.readmetro.com/es/ecuador/guayaquil/",
+                "twitter_account": null
+            },
+            {
+                "media": "Metro Ecuador",
+                "url": "http://www.metroecuador.com.ec/",
+                "twitter_account": "https://twitter.com/MetroEcuador"
+            },
+            {
+                "media": "Mundo Machala",
+                "url": "http://www.mundomachala.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "News Now",
+                "url": "http://www.newsnow.co.uk/h/World+News/Latin+America/South+America/Ecuador",
+                "twitter_account": null
+            },
+            {
+                "media": "Opinion",
+                "url": "http://www.diariopinion.com/",
+                "twitter_account": "https://twitter.com/diariopinion/"
+            },
+            {
+                "media": "PP El Verdadero",
+                "url": "http://www.ppelverdadero.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "Popular",
+                "url": "http://www.elpopular.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "Portada",
+                "url": "http://www.diarioportada.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "Quito Weekly",
+                "url": "http://www.quitoweekly.com/",
+                "twitter_account": "https://twitter.com/PublishedReport"
+            },
+            {
+                "media": "RTS",
+                "url": "http://www.rts.com.ec/",
+                "twitter_account": "https://twitter.com/RTSEcuador"
+            },
+            {
+                "media": "RTU",
+                "url": "http://www.rtunoticias.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "Radio Centro",
+                "url": "http://www.radiocentro.com.ec/online/",
+                "twitter_account": null
+            },
+            {
+                "media": "Radio El Mercurio",
+                "url": "http://www.radioelmercurio.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "Radio Mundial",
+                "url": "http://www.radio-mundial.com/",
+                "twitter_account": "https://twitter.com/MundialRiobamba"
+            },
+            {
+                "media": "Radio Sucre",
+                "url": "http://www.radiosucre.com.ec/",
+                "twitter_account": "https://twitter.com/radio_sucre700"
+            },
+            {
+                "media": "Super",
+                "url": "http://www.super.com.ec/",
+                "twitter_account": null
+            },
+            {
+                "media": "TC Television",
+                "url": "http://www.tctelevision.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "Teleamazonas",
+                "url": "http://www.teleamazonas.com/",
+                "twitter_account": "https://twitter.com/teleamazonasec"
+            },
+            {
+                "media": "Telerama",
+                "url": "http://www.telerama.ec/",
+                "twitter_account": "https://twitter.com/teleramaec"
+            },
+            {
+                "media": "Topix",
+                "url": "http://www.topix.com/world/ecuador/",
+                "twitter_account": null
+            },
+            {
+                "media": "Ultimas Noticias",
+                "url": "http://www.ultimasnoticias.ec/",
+                "twitter_account": "https://twitter.com/UNQuito?lang=es"
+            },
+            {
+                "media": "Verdad Latinoamericana",
+                "url": "http://www.semanariolaverdad.com/",
+                "twitter_account": null
+            },
+            {
+                "media": "Vistazo",
+                "url": "http://www.vistazo.com/",
+                "twitter_account": null
+            }
+        ]
+    }
+]

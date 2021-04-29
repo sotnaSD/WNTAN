@@ -1,0 +1,1 @@
+MIN_DOC_LENGTH = 2
