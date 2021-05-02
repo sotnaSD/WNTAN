@@ -51,6 +51,7 @@ class Custom_KMeans():
         for k in range(self.optimum_k):
             cluster_text = ' '.join(doc for doc in list(compress(preprocessed_data, self.Y == k)))
 
+
             wordcloud = WordCloud(max_font_size=50, max_words=100, background_color="white").generate(cluster_text)
             plt.imshow(wordcloud, interpolation='bilinear', aspect='auto')
             plt.axis("off")

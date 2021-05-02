@@ -47,19 +47,20 @@ class TwitterAuthenticator():
 class DataBulider():
 
     def format_tweet(self, status):
+        print(status)
+        return
         full_text = self.get_full_text(status)
         return full_text
 
     def get_full_text(self, status):
-        full_text = ''
-        if (status._json.get('full_text')):
+        if status._json.get('full_text'):
             full_text = status.full_text
         else:
-            if (status._json.get('extended_tweet')):
+            if status._json.get('extended_tweet'):
                 full_text = status._json.get('extended_tweet').get('full_text')
             else:
-                if (status._json.get('retweeted_status')):
-                    if (status._json.get('retweeted_status').get('extended_tweet')):
+                if status._json.get('retweeted_status'):
+                    if status._json.get('retweeted_status').get('extended_tweet'):
                         full_text = status._json.get('retweeted_status').get('extended_tweet').get('full_text')
                     else:
                         full_text = status._json.get('retweeted_status').get('text')
@@ -69,9 +70,11 @@ class DataBulider():
 
 
 screen_names_list = ['CCInoticias']
-fetched_tweets_filename = 'tweets.p'
+# fetched_tweets_filename = 'tweets.p'
+fetched_tweets_filename = 'tweetsTesting.p'
+
 
 twitter_client = TwitterClient()
-twitter_client.get_user_timeline_tweets(fetched_tweets_filename, screen_names_list, 30)
+twitter_client.get_user_timeline_tweets(fetched_tweets_filename, screen_names_list, 1)
 
 
