@@ -1,0 +1,70 @@
+<div class="main-container">
+
+  <div class="left-container" *ngIf="clusters.length == 0">
+    <mat-card class="primary-card">
+      <mat-card class="card-header"><h2>¿QUÉ DICE LA PRENSA SOBRE UN BARRIO?</h2></mat-card>
+
+      <div class="container" *ngIf="isProcessing; else elseProcessingBlock">
+        <mat-spinner></mat-spinner>
+        <h4>Esperando resultados del servidor.</h4>
+      </div>
+
+      <ng-template #elseProcessingBlock>
+
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+          <mat-form-field class="add-height-selector fill-container" appearance="fill">
+            <mat-label>Seleccione un país</mat-label>
+            <mat-select [(ngModel)]="clusterSelected" name="cluster" formControlName="country"
+                        (ngModelChange)="onSelectCluster()">
+              <mat-option *ngFor="let n of countries" [value]="n">
+                {{n}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field class="add-height-selector fill-container" appearance="fill">
+            <mat-label>Ingrese el nombre de la ciudad</mat-label>
+            <input matInput formControlName="city">
+          </mat-form-field>
+
+<!--          <mat-form-field class="add-height-selector fill-container" appearance="fill">-->
+<!--            <mat-label>Ingrese el nombre del sector</mat-label>-->
+<!--            <input matInput formControlName="neighborhood">-->
+<!--          </mat-form-field>-->
+          <div>
+            <button class="add-height-button" mat-raised-button type="submit">Consultar</button>
+
+          </div>
+
+        </form>
+      </ng-template>
+    </mat-card>
+
+  </div>
+
+
+  <div class="right-container" *ngIf="clusters.length > 0">
+    <mat-card class="primary-card">
+
+      <mat-card class="card-header"><h2>RESULTADOS</h2></mat-card>
+
+      <mat-form-field class="fill-container" appearance="fill">
+        <mat-label>Seleccione un clúster</mat-label>
+        <mat-select [(ngModel)]="clusterSelected" name="cluster" (ngModelChange)="onSelectCluster()">
+          <mat-option *ngFor="let n of clustersNames" [value]="n">
+            {{n}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div class="img-container">
+        <img src="{{clusterImgUrl}}">
+      </div>
+
+      <div class="new-query-button">
+        <button mat-raised-button (click)="refresh()" >Nueva Consulta</button>
+      </div>
+
+    </mat-card>
+  </div>
+
+</div>
